@@ -690,7 +690,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 font-weight: 500;
 line-height: 1.5;
-letter-spacing: 0.04em;
 color: #fff;
 margin-bottom: 16px;
 }
@@ -723,7 +722,6 @@ margin-bottom: 16px;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    background-color: rgb(0, 0, 0, 0.5);
     opacity: 0;
     visibility: hidden;
 }
@@ -731,6 +729,7 @@ margin-bottom: 16px;
 .close-close {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     top: 24px;
     right: 24px;
 }
@@ -768,6 +767,8 @@ margin-bottom: 16px;
     background-color: #e7e9fc;
     position: absolute;
     top: 24px;
+    width: 24px;
+    height: 24px;
     right: 24px;
     padding: 0%;
     border: 0;
@@ -780,12 +781,11 @@ margin-bottom: 16px;
 
 .modal-close-btn:hover {
 background-color: #404bbf;
-    border: none;
     fill: #ffffff;
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-    fill: #ffffff;
+   
     stroke: #fff;
 }
 
@@ -804,7 +804,6 @@ background-color: #404bbf;
     display: block;
         font-size: 12px;
         line-height: 1.17;
-            line-height: 1.16667;
             letter-spacing: 0.04em;
             color: #8e8f99;
             margin-bottom: 4px;
@@ -819,7 +818,6 @@ background-color: #404bbf;
     padding-left: 38px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: transparent;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .review-form-input:focus{
@@ -827,7 +825,7 @@ background-color: #404bbf;
             outline: transparent;
         }
         .review-form-field-wraper {
-            margin-bottom: 8px;
+            margin-bottom: 16px;
         }
 
         .review-icon-wraper {
@@ -840,7 +838,7 @@ background-color: #404bbf;
             left: 16px;
             transform: translateY(-50%);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
         }
 
      .review-form-input:focus + .review-icon {
@@ -865,7 +863,6 @@ background-color: #404bbf;
             padding-bottom: 8px;
             padding-left: 16px;
             margin-bottom: 16px;
-            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
          }
 
          .review-form-field-text:focus {
@@ -882,7 +879,7 @@ background-color: #404bbf;
          }
 .review-form-field-checkbox-label {
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
@@ -901,6 +898,7 @@ background-color: #404bbf;
             height: 16px;
             border-radius: 2px;
              border: 1px solid rgba(46, 47, 66, 0.4);
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
              cursor: pointer;
              fill: transparent;
           }
@@ -908,7 +906,8 @@ background-color: #404bbf;
           .review-form-field-checkbox-wraper:checked + .review-form-field-checkbox-label .checkbox-click {
         background-color: #404bbf;
         border-color: #404bbf;
-        fill: #ffffff;
+        fill: #F4F4FD;
+        border: none;
           }
 
         .review-form-field-checkbox-wraper:focus + .review-form-field-checkbox-label .checkbox-click {
@@ -930,7 +929,8 @@ background-color: #404bbf;
                     text-align: center;
                     border: none;
                color: #fff;
-               
+                min-width: 169px;
+                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                     background: #4d5ae5;
         }
 
