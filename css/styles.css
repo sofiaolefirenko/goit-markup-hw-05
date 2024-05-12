@@ -830,6 +830,7 @@ border: none;
         }
 
         .review-icon-wraper {
+            margin-bottom: 16px;
             position: relative;
         }
 
