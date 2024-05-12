@@ -826,6 +826,9 @@ border: none;
             outline: transparent;
         }
         .review-form-field-wraper {
+            margin-bottom: 8px;
+        }
+        .review-form-field-wraper-one {
             margin-bottom: 16px;
         }
 
