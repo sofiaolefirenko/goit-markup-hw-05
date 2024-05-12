@@ -826,11 +826,10 @@ border: none;
             outline: transparent;
         }
         .review-form-field-wraper {
-            margin-bottom: 8px;
+            margin-bottom: 16px;
         }
 
         .review-icon-wraper {
-            margin-bottom: 16px;
             position: relative;
         }
 
