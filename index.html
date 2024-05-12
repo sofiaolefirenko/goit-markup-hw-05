@@ -688,13 +688,18 @@
         <div class="social-link">
           <p class="link-for-social">Subscribe</p>
           <form class="form-footer">
-            <label>
-              <input class="email-input-footer" placeholder="Email" />
+            <label class="Subscribe-button">
+              <input
+                class="email-input-footer"
+                name="Email"
+                type="email"
+                placeholder="E-mail"
+              />
             </label>
-            <button class="anketa-footer-buttom" type="button">
+            <button class="anketa-footer-buttom" type="submit">
               Subscribe
-              <svg class="icon-send-telegram" width="24" height="20">
-                <use href="images/icons.svg#icon-icon-send"></use>
+              <svg class="icon-send-telegram" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
               </svg>
             </button>
           </form>
@@ -781,7 +786,7 @@
               <input
                 class="review-form-field-checkbox-wraper visually-hidden"
                 type="checkbox"
-                id="privacy Policy"
+                id="privacy-policy"
                 name="privacy-policy"
                 value="true"
                 required
