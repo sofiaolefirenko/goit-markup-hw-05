@@ -684,21 +684,25 @@
               </a>
             </li>
           </ul>
-          <div class="social-link">
-        <p class="link-for-social">Subscribe</p>
-        <input class="email-input-footer" placeholder="Email" />
-        
-        <button class="anketa-footer-buttom" type="button">
-          Subscribe
-          <svg class="icon-send-telegram" width="24" height="20">
-            <use href="images/icons.svg#icon-icon-send"></use>
-          </svg>
         </div>
-        </button>
+        <div class="social-link">
+          <p class="link-for-social">Subscribe</p>
+          <form class="form-footer">
+            <label>
+              <input class="email-input-footer" placeholder="Email" />
+            </label>
+            <button class="anketa-footer-buttom" type="button">
+              Subscribe
+              <svg class="icon-send-telegram" width="24" height="20">
+                <use href="images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- ====BACKGROUND ===== -->
-    <div class="background-new">
+    <div class="background-new is-open">
       <div class="model">
         <button class="modal-close-btn" type="button">
           <svg class="close-close" width="8" height="8">
@@ -715,7 +719,7 @@
             >
             <div class="review-icon-wraper">
               <input
-                type="name"
+                type="text"
                 class="review-form-input"
                 id="user-first-name"
                 name="user-first-name"
@@ -778,21 +782,17 @@
                 class="review-form-field-checkbox-wraper visually-hidden"
                 type="checkbox"
                 id="privacy Policy"
-                name="privacy Policy"
+                name="privacy-policy"
                 value="true"
                 required
               />
               <label
                 class="review-form-field-checkbox-label"
-                for="privacy Policy"
+                for="privacy-policy"
               >
                 <span class="checkbox-click">
-                  <svg class="review-icon-click">
-                    <use
-                      href="./images/icons.svg#icon-Vector-3"
-                      width="10"
-                      height="8"
-                    ></use>
+                  <svg class="review-icon-click" width="10" height="8">
+                    <use href="./images/icons.svg#icon-Vector-3"></use>
                   </svg>
                 </span>
                 I accept the terms and conditions of the
