@@ -670,7 +670,6 @@ display: block;
         padding: 8px 24px;
         width: 165px;
         height: 40px;
-        margin-left: 24px;
         border: none;
         color: #fff;
         
@@ -711,6 +710,11 @@ margin-bottom: 16px;
     position: relative;
 }
 
+.anketa-footer-buttom:hover,
+.anketa-footer-buttom:focus {
+    background: #404bbf;
+}
+
 
 /* BACKGROUND STYLE */
 .background-new {
@@ -726,12 +730,7 @@ margin-bottom: 16px;
     visibility: hidden;
 }
 
-.close-close {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    position: absolute;
-    top: 24px;
-    right: 24px;
-}
+
 
 .background-new.is-open {
     opacity: 1;
@@ -866,7 +865,6 @@ border: none;
             padding-right: 16px;
             padding-bottom: 8px;
             padding-left: 16px;
-            margin-bottom: 16px;
          }
 
          .review-form-field-text:focus {
@@ -941,3 +939,8 @@ border: none;
         .checkbox-click {
             align-items: center;
         }
+
+    .send-anket:hover,
+    .send-anket:focus {
+        background: #404bbf;
+    }
